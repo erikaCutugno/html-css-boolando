@@ -29,6 +29,8 @@ header{
     background-color: #ff6900;
     color: white;
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 header nav, header .icons{
@@ -109,4 +111,19 @@ header .icons{
     color: #ff0000;
     padding-right: 4px;
     
+}
+
+.secondary{
+    display: none;
+}
+
+.box:hover .secondary{
+    display: block;
+}
+
+.primary{
+    display: block;
+}
+.box:hover .primary{
+    display: none;
 }
