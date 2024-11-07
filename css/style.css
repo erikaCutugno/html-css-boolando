@@ -13,7 +13,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.img-fluid{
+    max-width: 100%;
+}
 
 /*---HEADER----*/
 
@@ -57,4 +59,54 @@ header .icons{
 }
 .icons i{
     padding-left: 6px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin: 40px 0;
+}
+.col {
+    width: calc(100% / 3);
+    
+}
+
+.box{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 6px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
+.col .info{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+.discount{
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 6px;
+}
+
+.ecology{
+    background-color:#008000 ;
+    color: white;
+    padding: 4px 6px;
+}
+
+.text-style{
+    font-size: 12px;
+}
+.text-style span{
+    color: #ff0000;
+    padding-right: 4px;
+    
 }
