@@ -16,7 +16,9 @@
 .img-fluid{
     max-width: 100%;
 }
-
+body{
+    font-size: 12px;
+}
 /*---HEADER----*/
 
 header > .container{
@@ -103,9 +105,6 @@ header .icons{
     padding: 4px 6px;
 }
 
-.text-style{
-    font-size: 12px;
-}
 .text-style span{
     color: #ff0000;
     padding-right: 4px;
